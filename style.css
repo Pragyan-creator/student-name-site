@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#756EE4;
+    --dark-grey:#6B7280;
+    --off-white:#E5E7EB;
+}
+body{
+    font-family:'Montserrat', sans-serif;
+}
+hr{
+    margin:2rem 0rem;
+}
+.link{
+    text-decoration:none;
+    padding:0.5rem 1rem;
+}
+.link:hover{
+    background:#A78BFA;
+}
+.navbar{
+    background: var(--primary-color);
+    color:white;
+    padding:1rem;
+    margin:0;
+    border-bottom-left-radius:1rem;
+}
+.navbar .heading{
+    font-weight:bold;
+}
+.list-non-bullet{
+    list-style:none;
+}
+.navbar .nav-pills{
+    text-align:right;
+}
+.inline-list-items{
+    display:inline;
+    padding: 0rem 0.5rem;
+}
+.navbar .link{
+    color:white;
+}
+.navbar .link-active{
+    font-weight:bold;
+}
+.link-primary{
+    background:var(--primary-color);
+    color:var(--off-white);
+    border-radius:0.5rem;
+    
+}
+.link-secondary{
+    background:var(--off-white);
+    color:var(--primary-color);
+    border:1px solid var(--primary-color);
+    border-radius:0.5rem;
+}
+header{
+    text-align:center;
+}
+header .hero-heading{
+    text-align:center;
+}
+
+
+header img{
+    display:block;
+    height:250px;
+    margin:auto;
+}
+.hero-heading{
+      color:var(--dark-grey);
+}
+.heading-inverted{
+    color:var(--primary-color);
+}
+.section h1{
+    text-align:center;
+    padding:0rem 2rem;
+    color:var(--primary-color);
+    margin-top:0;
+}
+.section{
+    padding:2rem;
+}
+.ow{
+    background:var(--off-white);
+}
+.container{
+    padding:0rem 1rem;
+    margin-top:0;
+}
+.container-center{
+    max-width:600px;
+    margin:auto;
+
+}
+.footer{
+    background:var(--primary-color);
+    padding:2rem 1rem;
+    text-align:center;
+    color:white;
+    border-top-right-radius:1rem;
+}
+.footer .link{
+    color:white;
+}
+.footer ul{
+    padding-inline-start:0px;
+}
+ol li h1{
+    color:var(--primary-color);
+}
