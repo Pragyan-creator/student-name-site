@@ -60,6 +60,8 @@ hr{
 }
 header{
     text-align:center;
+    background:var(--off-white);
+    padding:1rem 0rem;
 }
 header .hero-heading{
     text-align:center;
@@ -68,8 +70,9 @@ header .hero-heading{
 
 header img{
     display:block;
-    height:250px;
+    height:190px;
     margin:auto;
+    border-radius:50%;
 }
 .hero-heading{
       color:var(--dark-grey);
