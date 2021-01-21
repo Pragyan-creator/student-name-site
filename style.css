@@ -30,8 +30,9 @@ hr{
 .navbar{
     background: var(--off-blue);
     color:black;
-    padding:2rem;
+    padding:1rem;
     border-bottom-left-radius:1rem;
+    
 }
 .navbar .heading{
     font-weight:bold;
